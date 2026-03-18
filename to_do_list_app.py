@@ -1,6 +1,3 @@
-# To-Do List App
-# By: Your Name
-
 tasks = []
 
 def show_menu():
@@ -56,7 +53,6 @@ def delete_task():
     except ValueError:
         print("Please enter a valid number!")
 
-# Main Program
 while True:
     show_menu()
     choice = input("Enter choice (1-5): ")
